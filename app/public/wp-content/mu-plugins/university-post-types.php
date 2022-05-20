@@ -21,7 +21,7 @@ function university_post_types() {
 
    // Program Post Type
    register_post_type('program' , array(
-      'supports' => array('title', 'editor'),
+      'supports' => array('title'),
       'rewrite' => array(
          'slug' => 'programs'
       ),
@@ -52,8 +52,8 @@ function university_post_types() {
       ),
       'menu_icon'  => 'dashicons-welcome-learn-more'
    ));
- }
-  
- add_action('init', 'university_post_types');
+}
 
- ?>
+add_action('init', 'university_post_types');
+
+?>
