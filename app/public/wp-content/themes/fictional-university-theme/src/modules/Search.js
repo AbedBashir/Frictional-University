@@ -4,7 +4,7 @@ class Search {
     //1. constructor to describe our object
     constructor() {
         this.addSearchHTML();
-        this.openButton        = $(".js-search-trigger");
+        this.openButton         = $(".js-search-trigger");
         this.closeButton        = $(".search-overlay__close");
         this.searchOverlay      = $(".search-overlay");
         this.searchField        = $("#search-term");
@@ -32,6 +32,7 @@ class Search {
         this.searchField.val('');
         setTimeout( () => this.searchField.focus() , 301);
         this.isOverlayOpen = true;
+        return false;
     }
 
     closeOverlay(){
