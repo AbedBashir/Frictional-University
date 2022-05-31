@@ -4,10 +4,7 @@
 <?php 
     while (have_posts()){
         the_post(); 
-        pageBanner(array(
-        'title' => 'Search',
-        'subtitle' => 'Go Ahead and find whatever you want.'
-        ));
+        pageBanner();
         ?>
 
     <div class="container container--narrow page-section">
