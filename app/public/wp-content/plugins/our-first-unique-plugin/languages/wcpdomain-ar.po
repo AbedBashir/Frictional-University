@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Our Test Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-16 09:27+0000\n"
+"PO-Revision-Date: 2022-06-16 09:27+0000\n"
+"Last-Translator: Abed Bashir\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-5.9.3\n"
+"X-Domain: wcpdomain"
+
+#. Description of the plugin
+msgid "A Truly Amazin Plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Abed Bashir"
+msgstr ""
+
+#. Name of the plugin
+msgid "Our Test Plugin"
+msgstr ""
+
+#: our-first-unique-plugin.php:112
+msgid "This Post Has"
+msgstr ""
+
+#: our-first-unique-plugin.php:24
+msgid "Word Count"
+msgstr ""
+
+#: our-first-unique-plugin.php:112
+msgid "Words"
+msgstr ""

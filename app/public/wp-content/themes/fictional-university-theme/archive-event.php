@@ -1,10 +1,8 @@
 <?php get_header(); ?>
+<!-- <?php echo 'header'; ?> -->
 
 <?php 
-  pageBanner(array(
-    'title' => 'All Events',
-    'subtitle' => 'See What Is Going On In Our World.'
-  )); 
+  pageBanner();
 ?>
 
 
